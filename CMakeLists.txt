@@ -16,7 +16,7 @@ add_library(libudev
             udev.c
             )
 target_compile_options(libudev PRIVATE -D_XOPEN_SOURCE=700)
-set_target_properties(libudev PROPERTIES PUBLIC_HEADER "${CMAKE_CURRENT_SOURCE_DIR}/udev.h")
+set_target_properties(libudev PROPERTIES PUBLIC_HEADER "${CMAKE_CURRENT_SOURCE_DIR}/libudev.h")
 target_include_directories(libudev INTERFACE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}> INTERFACE $<INSTALL_INTERFACE:${CMAKE_INSTALL_FULL_INCLUDEDIR}>)
 target_link_libraries(libudev PRIVATE Threads::Threads)
 install(TARGETS libudev)
