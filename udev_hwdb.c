@@ -1,6 +1,6 @@
 #include <stddef.h>
 
-#include "udev.h"
+#include "libudev.h"
 
 /* XXX NOT IMPLEMENTED */ struct udev_hwdb *udev_hwdb_new(struct udev *udev)
 {

@@ -10,7 +10,7 @@
 #include <sys/socket.h>
 #include <sys/inotify.h>
 
-#include "udev.h"
+#include "libudev.h"
 #include "udev_list.h"
 
 #define THREADS_MAX 5

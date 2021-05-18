@@ -6,7 +6,7 @@
 #include <sys/stat.h>
 #include <linux/input.h>
 
-#include "udev.h"
+#include "libudev.h"
 #include "udev_list.h"
 
 #define BITS_MAX 96
